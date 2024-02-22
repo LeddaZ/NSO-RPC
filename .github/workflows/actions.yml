@@ -1,5 +1,6 @@
 name: 'Build NSO-RPC - x86_64'
 on:
+  workflow_dispatch:
   release:
     types: [published]
 
